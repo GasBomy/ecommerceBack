@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Taylor 214ce",
+        "color": "Natural",
+        "strings": 6,
+        "price": 999.99,
+        "image":"../public/guitar-acustic/Taylor_214ce.png"
+    },
+    {
+        "id": 2,
+        "name": "Martin D-28",
+        "color": "Vintage Sunburst",
+        "strings": 6,
+        "price": 2499.99,
+        "image":"../public/guitar-acustic/Martin_D-28.png"
+    },
+    {
+        "id": 3,
+        "name": "Gibson J-45",
+        "color": "Antique Natural",
+        "strings": 6,
+        "price": 2899.99,
+        "image":"../public/guitar-acustic/Gibson_J-45.png"
+    },
+    {
+        "id": 4,
+        "name": "Fender CD-60S",
+        "color": "Mahogany",
+        "strings": 6,
+        "price": 199.99,
+        "image":"../public/guitar-acustic/Fender_CD-60S.png"
+    },
+    {
+        "id": 5,
+        "name": "Yamaha FG800",
+        "color": "Natural",
+        "strings": 6,
+        "price": 199.99,
+        "image":"../public/guitar-acustic/Yamaha_FG800.png"
+    },
+    {
+        "id": 6,
+        "name": "Ibanez AW54",
+        "color": "Open Pore Natural",
+        "strings": 6,
+        "price": 299.99,
+        "image":"../public/guitar-acustic/Ibanez_AW54.png"
+    },
+    {
+        "id": 7,
+        "name": "Epiphone Hummingbird Pro",
+        "color": "Faded Cherry Sunburst",
+        "strings": 6,
+        "price": 369.99,
+        "image":"../public/guitar-acustic/Epiphone_Hummingbird_Pro.png"
+    },
+    {
+        "id": 8,
+        "name": "Seagull S6 Original",
+        "color": "Burnt Umber",
+        "strings": 6,
+        "price": 429.99,
+        "image":"../public/guitar-acustic/Seagull_S6_Original.png"
+    },
+    {
+        "id": 9,
+        "name": "Takamine GD20-NS",
+        "color": "Natural",
+        "strings": 6,
+        "price": 299.99,
+        "image":"../public/guitar-acustic/Takamine_GD20-NS.png"
+    },
+    {
+        "id": 10,
+        "name": "Cordoba C3M Classical Guitar",
+        "color": "Cedar",
+        "strings": 6,
+        "price": 299.99,
+        "image":"../public/guitar-acustic/Cordoba_C3M_Classical_Guitar.png"
+    }
+]

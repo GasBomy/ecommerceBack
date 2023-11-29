@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.body{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 2rem;
+    background: #090909;
+}
+
+.h1{
+    font-size: 2rem;
+    border-bottom: 3px solid rgb(199, 60, 60);
+    margin: 2rem;
+    width: 100%;
+    text-align: start;
+}
+.seccion{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.acustic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 18rem;
+    height: 24rem;
+    /* border: 1px solid rgb(49, 49, 49); */
+    border-radius: 3px;
+    background: #efefef;
+}
+.acustic img{
+    height: 17rem;
+    width: 17rem;
+}
+.acustic p{
+    font-size: 1em;
+}
+.acustic button{
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2px;
+    color: #fff;
+    background:rgb(83, 83, 230);
+}
+.acustic button:active{
+    opacity: .5;
+}

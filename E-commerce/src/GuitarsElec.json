@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Fender Stratocaster",
+    "brand": "Fender",
+    "model": "American Professional II",
+    "color": "Sunburst",
+    "price": 1499.99,
+    "image": "../public/guitarras-electricas/fender-american-professional-ii.png"
+  },
+  {
+    "id": 2,
+    "name": "Gibson Les Paul",
+    "brand": "Gibson",
+    "model": "Standard '50s",
+    "color": "Gold Top",
+    "price": 1999.99,
+    "image": "../public/guitarras-electricas/Gibson_Standard__50s.png"
+  },
+  {
+    "id": 3,
+    "name": "Ibanez RG550",
+    "brand": "Ibanez",
+    "model": "Genesis Collection",
+    "color": "Desert Sun Yellow",
+    "price": 799.99,
+    "image": "../public/guitarras-electricas/Ibanez_Desert_Sun_Yellow.png"
+  },
+  {
+    "id": 4,
+    "name": "PRS Custom 24",
+    "brand": "PRS",
+    "model": "SE Custom 24",
+    "color": "Vintage Sunburst",
+    "price": 899.99,
+    "image": "../public/guitarras-electricas/PRS-SE-Custom-22.png"
+  },
+  {
+    "id": 5,
+    "name": "Epiphone Les Paul",
+    "brand": "Epiphone",
+    "model": "Standard PlusTop Pro",
+    "color": "Heritage Cherry Sunburst",
+    "price": 549.99,
+    "image": "../public/guitarras-electricas/Gibson_Heritage_Cherry_Sunburst.png"
+  },
+  {
+    "id": 6,
+    "name": "Jackson Soloist",
+    "brand": "Jackson",
+    "model": "SL2",
+    "color": "Satin Black",
+    "price": 1099.99,
+    "image": "../public/guitarras-electricas/jackson-soloist-pro-sl2-satin-black.png"
+  },
+  {
+    "id": 7,
+    "name": "ESP LTD Eclipse",
+    "brand": "ESP LTD",
+    "model": "EC-1000",
+    "color": "Vintage Black",
+    "price": 899.99,
+    "image": "../public/guitarras-electricas/esp-ltd-eclipse-ec-1000-vb-emg.png"
+  },
+  {
+    "id": 8,
+    "name": "Gretsch Streamliner",
+    "brand": "Gretsch",
+    "model": "G2622",
+    "color": "Gunmetal",
+    "price": 549.99,
+    "image": "../public/guitarras-electricas/gretsch-g2622lh-streamliner-center-block-double-cut-gunmetal.png"
+  },
+  {
+    "id": 9,
+    "name": "Schecter Hellraiser",
+    "brand": "Schecter",
+    "model": "C-1 FR S",
+    "color": "Black Cherry",
+    "price": 1199.99,
+    "image": "../public/guitarras-electricas/schecter.png"
+  },
+  {
+    "id": 10,
+    "name": "ESP Kirk Hammett Signature",
+    "brand": "ESP",
+    "model": "KH-2 Vintage",
+    "color": "Black",
+    "price": 2999.99,
+    "image": "../public/guitarras-electricas/ESP_LTD_KH-202_Caution_Kirk_Hammett_Signature-.png"
+  }
+]

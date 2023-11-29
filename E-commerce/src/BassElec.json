@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Fender Precision Bass",
+        "color": "Sunburst",
+        "strings": 4,
+        "price": 799.99,
+        "image":"../public/bass-electrics/Fender_Precision_Bass.png"
+    },
+    {
+        "id": 2,
+        "name": "Gibson SG Bass",
+        "color": "Cherry Red",
+        "strings": 4,
+        "price": 1299.99,
+        "image":"../public/bass-electrics/Gibson_SG_Bass.png"
+    },
+    {
+        "id": 3,
+        "name": "Music Man StingRay",
+        "color": "Natural",
+        "strings": 5,
+        "price": 1999.99,
+        "image":"../public/bass-electrics/Music_Man_StingRay.png"
+    },
+    {
+        "id": 4,
+        "name": "Ibanez SR500",
+        "color": "Black",
+        "strings": 4,
+        "price": 599.99,
+        "image":"../public/bass-electrics/Ibanez_SR500.png"
+    },
+    {
+        "id": 5,
+        "name": "Schecter Stiletto Studio",
+        "color": "Honey Satin",
+        "strings": 5,
+        "price": 899.99,
+        "image":"../public/bass-electrics/Schecter_Stiletto_Studio.png"
+    },
+    {
+        "id": 6,
+        "name": "Ernie Ball Music Man Bongo 5",
+        "color": "Stealth Black",
+        "strings": 5,
+        "price": 2199.99,
+        "image":"../public/bass-electrics/Ernie_Ball_Music_Man_Bongo_5.png"
+    },
+    {
+        "id": 7,
+        "name": "Yamaha TRBX174",
+        "color": "Translucent Black",
+        "strings": 4,
+        "price": 449.99,
+        "image":"../public/bass-electrics/Yamaha_TRBX174.png"
+    },
+    {
+        "id": 8,
+        "name": "Epiphone Thunderbird IV",
+        "color": "Vintage Sunburst",
+        "strings": 4,
+        "price": 499.99,
+        "image":"../public/bass-electrics/Epiphone_Thunderbird_IV.png"
+    },
+    {
+        "id": 9,
+        "name": "Warwick Corvette $$",
+        "color": "Burgundy Red",
+        "strings": 5,
+        "price": 1799.99,
+        "image":"../public/bass-electrics/Warwick_Corvette.png"
+    },
+    {
+        "id": 10,
+        "name": "Squier Vintage Modified Jazz Bass",
+        "color": "Olympic White",
+        "strings": 4,
+        "price": 349.99,
+        "image":"../public/bass-electrics/Squier_Vintage_Modified_Jazz_Bass.png"
+    }
+]

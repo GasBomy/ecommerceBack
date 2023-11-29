@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+/* .body{
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 4rem;
+    
+} */
+
+.principal{
+    /* min-height: 90vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 2rem;
+    background: #090909;
+}
+.body{
+    /* min-height: 90vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 2rem;
+    background: #090909;
+    padding-top: 4.2rem;
+}
+
+.contenido{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 2rem;
+}
+.contenedorform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 2.8em;
+    font-weight: 100;
+    user-select: none;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+input{
+    background: #fff;
+    color:#121212;
+    font-size: 1.1em;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+}
+.empa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-flow: column;
+    gap: .7rem;
+}
+.empa input{
+    outline: none;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 90%;
+    text-align: start;
+}
+/*.empa input:hover{
+    border-bottom: 2px solid #036564;
+}*/
+.icon{
+    /*margin-top: 15px ;*/
+    color:#fff;
+    height: 35px;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ionicon{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+::placeholder{
+    color: #12121245;
+    text-align: start;
+}
+
+.pame{
+    display: flex;
+    gap:5px;
+    height: 2.5rem;
+    width: 75%;
+}
+
+
+.botones{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row ;
+    gap: 1rem;
+    margin: 20px auto;
+    margin-top: 2rem;
+}
+
+.botones button{
+    color: #fff;
+    border: none;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    height: 2.2rem;
+    width: 9rem;
+    font-size: 1.1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.botYellow::before{
+    content: '';
+    background: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    text-emphasis-position: 0;
+    z-index: -1;
+}
+
+.botGreen::before{
+    background: green;
+    content: '';
+    /* background: yellow; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    text-emphasis-position: 0;
+    z-index: -1;
+}
+
+.botGreen:hover{
+    /*color: #121212;*/
+    /*background: #036564;*/
+    border-radius: 5px;
+}
+.botGreen:hover::before{
+    width: 100%;
+}
+.botGreen:active{
+    /*color: #036564;*/
+    background: transparent;
+}
+.botGreen:active::before{
+    background: #036564;
+}
+.botYellow:hover{
+    /*color: #121212;*/
+    /*background: #036564;*/
+    border-radius: 5px;
+}
+.botYellow:hover::before{
+    width: 100%;
+}
+.botYellow:active{
+    /*color: #036564;*/
+    background: transparent;
+}
+.botYellow:active::before{
+    background: #036564;
+}

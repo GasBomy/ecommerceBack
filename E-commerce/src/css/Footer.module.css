@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    background: #22092C;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+.logo2{
+    height: 9rem;
+    width: 9rem;
+}
+.redes{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+.redes2{
+    display: flex;
+    justify-content: space-around;
+}
+.redes2 p{
+    font-size: .875rem;
+    width: 10rem;
+    color: #fff;
+}
+.redes3{
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.redes3 a{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.redes3 a ion-icon{
+    font-size:1.8rem;
+    color: #fff;
+    opacity: .1;
+}
+.redes3 a ion-icon:hover{
+    opacity: 1;
+}
+.services{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+.boxUl{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+    width: 10rem;
+    border-top: 1px solid #fff;
+}
+.boxUl h5{
+    color: #fff;
+    font-size: 1.3em;
+}
+.serviceUl{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.serviceUl li{
+    list-style: none;
+}
+.serviceUl li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .9rem;
+}

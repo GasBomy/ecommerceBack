@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: #22092C;
+    width: 100%;
+    min-height: 10vh;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+}
+/* .separador{
+    width: 100%;
+    height: 20%;
+    background:#8f8362;
+} */
+.img{
+    height: 5rem;
+    width: 5rem;
+}
+.img1{
+    display: none;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+/*     position:static;
+    z-index: 200; */
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.lista{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    gap: .7rem;
+
+}
+.lista .li1{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista li a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    padding-left: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    
+}
+/* .lista li a:hover{
+    border-bottom: 1px solid #fff;
+
+} */
+.carrito{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrito > ion-icon{
+    color: #ffff;
+    font-size: 1.5em;
+}
+.menures{
+    display: none;
+}
+.menures > ion-icon{
+   /*  display: none; */
+    color: #ffff;
+    font-size: 1.5em;
+}
+/* =====================================menu hover============================================= */
+
+.electricsub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    /* width: 25vw; */
+    padding: 20px;
+    left: 7rem;
+    transition: all .5s ease-out;
+    /* border: 1px solid #fff; */
+    height: 35%;
+    /* background: #e0e0e0; */
+   /*  border-radius: .300rem; */
+    box-shadow:
+2px 2px 4px #22092C,
+2px 2px 4px #22092C;
+    gap: 1em;
+
+}
+.electricsub ul li{
+    list-style: none;
+}
+.electricsub ul li a{
+    height: 1.4rem;
+}
+.electricsub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid #22092C;
+}
+.electric:hover .electricsub{
+    display: flex;
+}
+
+
+
+.acusticsub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 30vw;
+    padding: 20px;
+    left: 7rem;
+    transition: all .5s ease-out;
+   /*  border: 1px solid #fff; */
+    height: 30%;
+    box-shadow:2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 1em;
+}
+.acusticsub ul li{
+    list-style: none;
+}
+.acusticsub ul li a{
+    height: 1.4rem;
+}
+.acusticsub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.acustic:hover .acusticsub{
+    display: flex;
+}
+
+
+.basssub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 35vw;
+    padding: 20px;
+    left:7rem;
+    transition: all .5s ease-out;
+  /*   border: 1px solid #fff; */
+    height: 20%;
+    box-shadow: 2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 1em;
+}
+.basssub ul li{
+    list-style: none;
+}
+.basssub ul li a{
+    height: 1.4rem;
+}
+.basssub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.bass:hover .basssub{
+    display: flex;
+}
+
+.guiAceSub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    /* flex-flow: column; */
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 60vw;
+    padding: 20px;
+    left: 7rem;
+    transition: all .5s ease-out;
+   /*  border: 1px solid #fff; */
+    gap: 3.5rem;
+    height: 53%;
+    box-shadow:  2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 5em;
+}
+.guiAceSub div{
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+}
+.guiAceSub div ul li{
+    list-style: none;
+}
+.guiAceSub div ul li a{
+    height: 1.4rem;
+}
+.guiAceSub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.guitarAccesories:hover .guiAceSub{
+    display: flex;
+}
+
+.lifestylesub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    /* flex-flow: column; */
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 75vw;
+    padding: 20px;
+    left:7rem;
+    transition: all .5s ease-out;
+   /*  border: 1px solid #fff; */
+    gap: 3.5rem;
+    height: 35%;
+    box-shadow: 2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 5em;
+}
+.lifestylesub div{
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+}
+.lifestylesub div ul li{
+    list-style: none;
+}
+.lifestylesub div ul li a{
+    height: 1.4rem;
+}
+
+.lifestylesub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.lifestyle:hover .lifestylesub{
+    display: flex;
+}
+
+.servicesub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    /* flex-flow: column; */
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 75vw;
+    padding: 20px;
+    left: 7rem;
+    transition: all .5s ease-out;
+   /*  border: 1px solid #fff; */
+    gap: 3.5rem;
+    height: 35%;
+    box-shadow: 2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 5em;
+}
+.servicesub div{
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+}
+.servicesub div ul li{
+    list-style: none;
+}
+.servicesub div ul li a{
+    height: 1.4rem;
+}
+.servicesub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.service:hover .servicesub{
+    display: flex;
+}
+
+.mediasub{
+    display: none;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    font-weight: 600;
+    background-color: #212529;
+    position:fixed;
+    z-index: 1;
+    top:60px;
+    bottom: 0;
+    width: 74vw;
+    padding: 20px;
+    left: 7rem;
+    transition: all .5s ease-out;
+   /*  border: 1px solid #fff; */
+    height: 28%;
+    box-shadow:2px 2px 4px rgb(125, 40, 40),
+    2px 2px 4px rgb(199, 60, 60);
+    gap: 1em;
+}
+.mediasub ul li{
+    list-style: none;
+}
+.mediasub ul li a{
+    height: 1.4rem;
+}
+.mediasub h3{
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(199, 60, 60);
+}
+.media:hover .mediasub{
+    display: flex;
+}
+
+/* =====================================responsive============================================= */
+@media screen and (max-width:900px){
+    .nav{
+        justify-content: space-between;
+    }
+    .lista{
+        display: flex;
+        width: 50%;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+		/* opacity: -5; */
+		height: 100%;  
+        position: absolute; 
+/*         overflow: hidden; */
+        top: 10rem;
+    }
+    .menures{
+        width: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .productos{
+        /* display: none; */
+        opacity: -5;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        height:100%;
+        width: 100%;
+        top: 10rem;
+    }
+    .img{
+        display: none;
+    }
+    .img1{
+        position: relative;
+        display: flex;
+        height: 5rem;
+        width: 5rem;
+        /* left: 350%; */
+    }
+
+    .isActive{
+        display: flex;
+		opacity: 1;
+		/* height: 50vh; */
+        top: 3rem; 
+        left: 0; 
+        background: red;
+        width: 100%;
+        height: 100%;
+    }
+}
